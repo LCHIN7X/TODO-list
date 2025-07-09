@@ -36,3 +36,67 @@ h1{
   align-items: flex-start;
   margin-right: 25px;
 }
+
+.todo-input-item label{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.todo-input-item input{
+  padding: 8px;
+  border: none;
+  width: 250px;
+}
+
+.todo-input-item input:focus{
+  outline: 2px solid rgb(16, 113, 177);
+}
+
+.primaryBtn{
+  background-color: rgb(16, 113, 177);
+  color: white;
+  border: none;
+  border-radius: 0px;
+  margin-top: 25px;
+  padding: 10px;
+  width: 60px;
+  cursor: pointer;
+  }
+
+  .primaryBtn:hover{
+    background-color: rgb(16, 113, 177);
+  }
+
+  .secondaryBtn{
+    background-color: rgb(71,71,71);
+    color: white;
+    border:none;
+    border-radius: 0px;
+    margin-top: 25pax;
+    padding: 10px;
+    width: fit-content;
+    cursor: pointer;
+  }
+
+  .active{
+    background-color: rgb(16, 113, 177);
+  }
+
+  .todo-list{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-area{
+    margin-bottom: 15px;
+  }
+
+  .todo-list-item{
+    background-color: #414040;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
