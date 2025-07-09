@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -19,9 +18,17 @@ function App() {
             <button type='button' className='primaryBtn'>Add</button>
           </div>
         </div>
+
         <div className='btn-area'>
           <button>ToDO</button>
           <button>Completed</button>
+        </div>
+
+        <div className='todo-list'>
+          <div className='todo-list-item'>
+            <h3>Task 1</h3>
+            <p>Description</p>
+          </div>
         </div>
 
       </div>
